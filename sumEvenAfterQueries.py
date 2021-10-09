@@ -22,6 +22,7 @@ class soulation(object):
 
 nums = [1,2,3,4]  
 queries = [[1,0],[-3,1],[-4,0],[2,3]]
-
-s1 = soulation(nums,queries)
-print (s1.sum_after_queries())
+if __name__=='__main__':
+    
+    s1 = soulation(nums,queries)
+    print (s1.sum_after_queries())
